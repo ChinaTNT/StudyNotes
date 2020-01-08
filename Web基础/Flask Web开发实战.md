@@ -84,14 +84,10 @@
      
      ```jinja2
      {% macro qux(amount=1) %}
-     	{% if amount == 1 %}
-     
+       {% if amount == 1 %}
      ​			I am qux.
-     
        {% elif amount > 1 %}
-     
      ​			We are quxs.
-     
        {% endif %}
      
      {% endmacro%}
@@ -112,9 +108,9 @@
      
      
    + 模板继承
-
+   
      基模板与继承
-
+   
      ![](base template.png)
 
      ![](模板继承.png)
@@ -124,9 +120,9 @@
      子模板（子类可覆盖或追加父类的内容）
 
      ```jinja2
-     {% extends 'base.html' %}
+  {% extends 'base.html' %}
      {% from 'macros.html' import qux %}
-     
+  
      {% block content %}
      {% set name='baz' %}
      <h1>Template</h1><ul><li><a href="{{ url_for('watchlist') }}">Watchlist</a></li>
@@ -137,21 +133,19 @@
      </ul>
      {% endblock %} 
      ```
-
+   
      创建同名的块即可覆盖。
-
+   
      追加内容
 
      ```jinja2
-     {% block styles %}
+  {% block styles %}
         {super()}}
-
-       <style>
-       		.foo {
-       			color:  red;
-       		}
-       </style>     
-     
+   <style>
+       		 .foo {
+       			 color:  red;
+       		 }
+     </style>     
      {% endblock %}  
      ```
    
