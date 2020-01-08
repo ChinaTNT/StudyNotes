@@ -62,7 +62,7 @@
 
    + 测试器（判断作用）
 
-     ![](过滤器.png)
+     ![](./过滤器.png)
 
 3. 模板结构组织
 
@@ -111,18 +111,18 @@
    
      基模板与继承
    
-     ![](base template.png)
+     ![](./base template.png)
 
-     ![](模板继承.png)
+     ![](./模板继承.png)
 
      
 
      子模板（子类可覆盖或追加父类的内容）
 
      ```jinja2
-  {% extends 'base.html' %}
+    {% extends 'base.html' %}
      {% from 'macros.html' import qux %}
-  
+    
      {% block content %}
      {% set name='baz' %}
      <h1>Template</h1><ul><li><a href="{{ url_for('watchlist') }}">Watchlist</a></li>
@@ -139,14 +139,14 @@
      追加内容
 
      ```jinja2
-  {% block styles %}
+    {% block styles %}
         {super()}}
-   <style>
-       		 .foo {
-       			 color:  red;
-       		 }
-     </style>     
-     {% endblock %}  
+        <style>
+         		 .foo {
+         			 color:  red;
+         		 }
+       </style>  
+      {% endblock %}  
      ```
    
 4. 模板进阶实践
