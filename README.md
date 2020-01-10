@@ -4,6 +4,8 @@
 >
 > [Linux](Linux)
 >
+> [python](python)
+>
 > [Web基础](Web基础)
 >
 > [代码管理](代码管理)
