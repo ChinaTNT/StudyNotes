@@ -2,17 +2,36 @@
 
 > [C/C++](C_C++)
 >
+> + [C Primer与C和指针复习](C_C++/C复习.png)
+>
 > [Linux](Linux)
+>
+> + [鸟哥的私房菜](Linux/鸟哥的私房菜/鸟哥的私房菜.md)
 >
 > [python](python)
 >
+> + [Effective Python 59.md](python/Effective Python 59.md)
+>
 > [Web基础](Web基础)
+>
+> + [Flask Web开发实战](Web基础/Flask Web开发实战.md)
 >
 > [代码管理](代码管理)
 >
+> + [Git](代码管理/Git.md)
+>
 > [数据库](数据库)
+>
+> + [MySql环境搭建](数据库/MySQL环境搭建-mysql 8.0.13 解压版安装配置方法图文教程.png)
+> + [SQL必知必会实践](数据库/SQL必知必会实践--mysql.png)
+> + [SQL学习指南](数据库/SQL学习指南.png)
 >
 > [网络基础](网络基础)
 >
+> + [计算机网路](网络基础/计算机网络.png)
+>
 > [小技巧](小技巧)
+>
+> + [note](小技巧/note.md)
+> + [注重实效的程序员之快速参考指南](小技巧/注重实效的程序员之快速参考指南.md)
 
