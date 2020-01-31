@@ -12,9 +12,9 @@
 >
 > + [Effective Python 59.md](python/Effective&#32;Python&#32;59.md)
 >
-> [Web基础](Web基础)
+> [Web开发](Web开发)
 >
-> + [Flask Web开发实战](Web基础/Flask&#32;Web开发实战.md)
+> + [Flask Web开发实战](Web开发/Flask&#32;Web开发实战.md)
 >
 > [代码管理](代码管理)
 >
