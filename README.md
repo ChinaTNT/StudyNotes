@@ -1,5 +1,7 @@
 # StudyNotes
 
+:e-mail: q_tnt@qq.com
+
 > [C/C++](C_C++)
 >
 > + [C Primer与C和指针复习](C_C++/C复习.png)
@@ -35,4 +37,3 @@
 >
 > + [note](小技巧/note.md)
 > + [注重实效的程序员之快速参考指南](小技巧/注重实效的程序员之快速参考指南.md)
-

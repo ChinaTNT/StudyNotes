@@ -1,5 +1,15 @@
 > python
 
++ python 源慢解决方法
+
+```python
+pip install django -i https://pypi.tuna.tsinghua.edu.cn/simple
+其他镜像
+https://mirrors.aliyun.com/pypi/simple/
+http://pypi.doubanio.com/simple/
+
+```
+
 + 列表拉成一列
 
 ```python
