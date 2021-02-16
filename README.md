@@ -17,7 +17,7 @@
 > [Web开发](Web开发)
 >
 > + [Flask Web开发实战](Web开发/Flask&#32;Web开发实战.md)
-> + [图解HTTP](Web开发/图解HTTP.xmind)
+> + [图解HTTP](Web开发/图解HTTP.png)
 >
 > [代码管理](代码管理)
 >
